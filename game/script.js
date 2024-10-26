@@ -65,7 +65,7 @@ function onCollision(character, spike) {
   var spikeRect = spike.getBoundingClientRect();
 
   return (
-    characterRect.left - 25 < spikeRect.right - 20 &&
+    characterRect.left - 25 < spikeRect.right - 35 &&
     characterRect.right - 25 > spikeRect.left - 20 &&
     characterRect.top < spikeRect.bottom &&
     characterRect.bottom > spikeRect.top + 15
