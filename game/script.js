@@ -19,6 +19,25 @@ function run() {
 
 setInterval(run, 200);
 
+//Make bat fly
+var bat = document.getElementById('bat');
+var stillBat = 'bat.png';
+var moveBat = 'bat2.png';
+var flyBat = true;
+
+function fly() {
+  if (flyBat) {
+    bat.src = moveBat;
+    flyBat = false;
+  }
+  else {
+    bat.src = stillBat;
+    flyBat = true;
+  }
+}
+
+setInterval(fly, 300);
+
 //Make character jump
 function jump() {
   if (onFloor) {
