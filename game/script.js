@@ -84,6 +84,7 @@ function endGame() {
   document.getElementById('bob').style.display = 'none';
   document.getElementById('bob2').style.display = 'none';
   document.getElementById('again').style.display = 'block';
+  document.getElementById('rules').style.display = 'none';
 
   clearInterval(runInterval);
   clearTimeout(addTimeout);
