@@ -115,6 +115,24 @@ h1 {
     100%{right: 0px}
 }
 
+#bat {
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 700px;
+    margin-bottom: 50px;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 12s;
+    animation-name: bat;
+}
+
+@keyframes bat {
+    0%{left: 1200px}
+    100%{left: -80px}
+}
+
 #again {
     position: absolute;
     top: 60%;
