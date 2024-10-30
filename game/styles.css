@@ -49,17 +49,10 @@ h1 {
     100%{right: 0px}
 }
 
-#bob {
+#bill {
     position: absolute;
     z-index: 1;
-    padding: 162px 0px 0px 15px;
-    transition: top 0.3s ease-out;
-}
-
-#bob2 {
-    position: absolute;
-    z-index: 1;
-    padding: 162px 0px 0px 15px;
+    padding: 206px 0px 0px 15px;
     transition: top 0.3s ease-out;
 }
 
