@@ -56,6 +56,8 @@ function jump() {
 
 document.addEventListener('keydown', function(event) {
   document.getElementById('rules').style.display = 'none';
+  document.getElementById('spike1').style.display = 'none';
+  document.getElementById('spike2').style.display = 'none';
     if (event.code === 'Space' && onFloor) {
       jump();
     }
