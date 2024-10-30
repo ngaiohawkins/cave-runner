@@ -1,7 +1,7 @@
 //Make character run
-var character = document.getElementById('bob');
-var stillImg = 'bob.png';
-var moveImg = 'bob3.png';
+var character = document.getElementById('bill');
+var stillImg = 'bill.png';
+var moveImg = 'bill2.png';
 var move = true;
 var over = false;
 var onFloor = true;
@@ -100,8 +100,8 @@ function checkCollisions() {
 function endGame() {
   over = true;
   document.getElementById('over').style.display = 'block';
-  document.getElementById('bob').style.display = 'none';
-  document.getElementById('bob2').style.display = 'none';
+  document.getElementById('bill').style.display = 'none';
+  document.getElementById('bill2').style.display = 'none';
   document.getElementById('again').style.display = 'block';
   document.getElementById('rules').style.display = 'none';
 
